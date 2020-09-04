@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="TestSuite" time="28.672" tests="9" errors="0" skipped="6" failures="1">
+  <properties>
+    <property name="JOB_NAME" value="Amazon_assignment"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="NUMBER_OF_PROCESSORS" value="8"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="JENKINS_HOME" value="C:\Users\anamikasaluja\.jenkins"/>
+    <property name="FPS_BROWSER_USER_PROFILE_STRING" value="Default"/>
+    <property name="HUDSON_SERVER_COOKIE" value="5043290234daebb0"/>
+    <property name="POM_ARTIFACTID" value="Amazon_Assignment"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="EXECUTOR_NUMBER" value="1"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="PATHEXT" value=".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY;.PYW"/>
+    <property name="POM_DISPLAYNAME" value="Amazon_Assignment"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="TEMP" value="C:\Users\ANAMIK~1\AppData\Local\Temp"/>
+    <property name="NODE_LABELS" value="master"/>
+    <property name="java.runtime.version" value="11.0.5+10-LTS"/>
+    <property name="FPS_BROWSER_APP_PROFILE_STRING" value="Internet Explorer"/>
+    <property name="user.name" value="anamikasaluja"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="CommonProgramW6432" value="C:\Program Files\Common Files"/>
+    <property name="ProgramFiles" value="C:\Program Files"/>
+    <property name="PROMPT" value="$P$G"/>
+    <property name="user.language" value="en"/>
+    <property name="JOB_BASE_NAME" value="Amazon_assignment"/>
+    <property name="RUN_CHANGES_DISPLAY_URL" value="http://localhost:8080/job/Amazon_assignment/4/display/redirect?page=changes"/>
+    <property name="BUILD_DISPLAY_NAME" value="#4"/>
+    <property name="OneDrive" value="C:\Users\anamikasaluja\OneDrive - Nagarro"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-11.0.5\bin"/>
+    <property name="OneDriveCommercial" value="C:\Users\anamikasaluja\OneDrive - Nagarro"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="LOCALAPPDATA" value="C:\Users\anamikasaluja\AppData\Local"/>
+    <property name="java.version" value="11.0.5"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="PROCESSOR_LEVEL" value="6"/>
+    <property name="USERNAME" value="anamikasaluja"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="NODE_NAME" value="master"/>
+    <property name="BUILD_ID" value="4"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="maven.conf" value="C:\Users\anamikasaluja\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\Maven\conf"/>
+    <property name="HOMEDRIVE" value="C:"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="55.0"/>
+    <property name="=::" value="::\"/>
+    <property name="org.slf4j.simpleLogger.defaultLogLevel" value="info"/>
+    <property name="user.country" value="IN"/>
+    <property name="ALLUSERSPROFILE" value="C:\ProgramData"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-11.0.5"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="os.version" value="10.0"/>
+    <property name="RUN_DISPLAY_URL" value="http://localhost:8080/job/Amazon_assignment/4/display/redirect"/>
+    <property name="POM_VERSION" value="0.0.1-SNAPSHOT"/>
+    <property name="TMP" value="C:\Users\ANAMIK~1\AppData\Local\Temp"/>
+    <property name="configsetroot" value="C:\WINDOWS\ConfigSetRoot"/>
+    <property name="path.separator" value=";"/>
+    <property name="java.vm.version" value="11.0.5+10-LTS"/>
+    <property name="user.variant" value=""/>
+    <property name="CommonProgramFiles(x86)" value="C:\Program Files (x86)\Common Files"/>
+    <property name="JOB_DISPLAY_URL" value="http://localhost:8080/job/Amazon_assignment/display/redirect"/>
+    <property name="USERDOMAIN_ROAMINGPROFILE" value="NAGARRO"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="CommonProgramFiles" value="C:\Program Files\Common Files"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="ComSpec" value="C:\WINDOWS\system32\cmd.exe"/>
+    <property name="USERDNSDOMAIN" value="Nagarro.local"/>
+    <property name="HOMEPATH" value="\Users\anamikasaluja"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="POM_PACKAGING" value="jar"/>
+    <property name="COMPUTERNAME" value="ANAMIKASALUJA"/>
+    <property name="user.script" value=""/>
+    <property name="POM_GROUPID" value="com.selenium"/>
+    <property name="user.home" value="C:\Users\anamikasaluja"/>
+    <property name="PUBLIC" value="C:\Users\Public"/>
+    <property name="BUILD_TAG" value="jenkins-Amazon_assignment-4"/>
+    <property name="JENKINS_SERVER_COOKIE" value="5043290234daebb0"/>
+    <property name="HUDSON_URL" value="http://localhost:8080/"/>
+    <property name="ProgramData" value="C:\ProgramData"/>
+    <property name="java.version.date" value="2019-10-15"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="USERPROFILE" value="C:\Users\anamikasaluja"/>
+    <property name="CLASSPATH" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-11.0.5\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Users\anamikasaluja\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\Maven/bin;C:\Python38\Scripts\;C:\Python38\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\TortoiseSVN\bin;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\apache-maven-3.6.3\bin;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\Git\cmd;C:\Program Files\Git\bin;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\ProgramData\chocolatey\bin;C:\Program Files\nodejs\;C:\Program Files\nodejs\node_modules\npm;C:\Program Files\Java\jdk-11.0.5\bin;C:\Users\anamikasaluja\AppData\Local\Microsoft\WindowsApps;C:\Users\anamikasaluja\AppData\Roaming\npm;C:\Users\anamikasaluja\AppData\Local\Programs\Microsoft VS Code\bin;."/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="APPDATA" value="C:\Users\anamikasaluja\AppData\Roaming"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="maven.home" value="C:\Users\anamikasaluja\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\Maven"/>
+    <property name="java.class.path" value="C:\Users\anamikasaluja\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-agent-1.13.jar;C:\Users\anamikasaluja\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\Maven\boot\plexus-classworlds-2.6.0.jar;C:\Users\anamikasaluja\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\Maven/conf/logging"/>
+    <property name="sun.java.command" value="jenkins.maven3.agent.Maven35Main C:\Users\anamikasaluja\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\Maven C:\Users\anamikasaluja\.jenkins\war\WEB-INF\lib\remoting-4.2.1.jar C:\Users\anamikasaluja\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-interceptor-1.13.jar C:\Users\anamikasaluja\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.13.jar 50879"/>
+    <property name="Path" value="C:\Python38\Scripts\;C:\Python38\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\TortoiseSVN\bin;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\apache-maven-3.6.3\bin;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\Git\cmd;C:\Program Files\Git\bin;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\ProgramData\chocolatey\bin;C:\Program Files\nodejs\;C:\Program Files\nodejs\node_modules\npm;C:\Program Files\Java\jdk-11.0.5\bin;C:\Users\anamikasaluja\AppData\Local\Microsoft\WindowsApps;C:\Users\anamikasaluja\AppData\Roaming\npm;C:\Users\anamikasaluja\AppData\Local\Programs\Microsoft VS Code\bin"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="PROCESSOR_ARCHITECTURE" value="AMD64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="SESSIONNAME" value="Console"/>
+    <property name="PROCESSOR_IDENTIFIER" value="Intel64 Family 6 Model 142 Stepping 10, GenuineIntel"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="M2_HOME" value="C:\Users\anamikasaluja\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\Maven"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="OS" value="Windows_NT"/>
+    <property name="=D:" value="D:\devOps"/>
+    <property name="java.io.tmpdir" value="C:\Users\ANAMIK~1\AppData\Local\Temp\"/>
+    <property name="HUDSON_HOME" value="C:\Users\anamikasaluja\.jenkins"/>
+    <property name="PATH+MAVEN" value="C:\Users\anamikasaluja\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\Maven/bin"/>
+    <property name="ProgramFiles(x86)" value="C:\Program Files (x86)"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.java.com/bugreport/"/>
+    <property name="BUILD_URL" value="http://localhost:8080/job/Amazon_assignment/4/"/>
+    <property name="SystemRoot" value="C:\WINDOWS"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="user.dir" value="D:\Assignment\Amazon_Assignment\Amazon_Assignment\Amazon_Assignment"/>
+    <property name="JOB_URL" value="http://localhost:8080/job/Amazon_assignment/"/>
+    <property name="LOGONSERVER" value="\\SVRDC01"/>
+    <property name="USERDOMAIN" value="NAGARRO"/>
+    <property name="MAVEN_HOME" value="C:\Users\anamikasaluja\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\Maven"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="BUILD_NUMBER" value="4"/>
+    <property name="PROCESSOR_REVISION" value="8e0a"/>
+    <property name="JENKINS_URL" value="http://localhost:8080/"/>
+    <property name="UATDATA" value="C:\Windows\CCM\UATData\D9F8C395-CAB8-491d-B8AC-179A1FE1BE77"/>
+    <property name="ProgramW6432" value="C:\Program Files"/>
+    <property name="windir" value="C:\WINDOWS"/>
+    <property name="ChocolateyLastPathUpdate" value="132407474781582748"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="SystemDrive" value="C:"/>
+    <property name="maven3.interceptor" value="C:\Users\anamikasaluja\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-interceptor-1.13.jar"/>
+    <property name="WORKSPACE_TMP" value="C:\Users\anamikasaluja\.jenkins\workspace\Amazon_assignment@tmp"/>
+    <property name="WORKSPACE" value="C:\Users\anamikasaluja\.jenkins\workspace\Amazon_assignment"/>
+    <property name="ChocolateyInstall" value="C:\ProgramData\chocolatey"/>
+    <property name="maven3.interceptor.common" value="C:\Users\anamikasaluja\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.13.jar"/>
+    <property name="PSModulePath" value="C:\Program Files\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="DriverData" value="C:\Windows\System32\Drivers\DriverData"/>
+    <property name="java.vendor.version" value="18.9"/>
+  </properties>
+  <testcase name="init" classname="TestCases.Searches" time="0">
+    <skipped/>
+    <system-out>2020-08-25 18:09:30 INFO  BasePage:63 - Into Before Suite - Hook
+2020-08-25 18:09:30 INFO  ExtentManager:22 - Into extent reporter ----
+2020-08-25 18:09:30 INFO  ExtentManager:34 - HTML report created : Assignment  
+2020-08-25 18:09:30 INFO  BasePage:77 - Into before Test Hook 
+2020-08-25 18:09:37 INFO  BasePage:89 - Chrome Browser launched successfully..
+</system-out>
+    <system-err>Starting ChromeDriver 84.0.4147.30 (48b3e868b4cc0aa7e8149519690b6f6949e110a8-refs/branch-heads/4147@{#310}) on port 4164
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Aug 25, 2020 6:09:34 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+</system-err>
+  </testcase>
+  <testcase name="testCase_Search" classname="TestCases.Searches" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterMethod" classname="TestCases.Searches" time="0">
+    <skipped/>
+    <system-out>2020-08-25 18:09:37 INFO  BasePage:30 - New testcase :testCase_Search
+2020-08-25 18:09:37 INFO  BasePage:32 - Testcase Description : 
+2020-08-25 18:09:37 INFO  BasePage:33 - Testcase get skipped
+2020-08-25 18:09:37 ERROR BasePage:36 - testCase_Search SKIPPED 
+</system-out>
+  </testcase>
+  <testcase name="testCase_NegativeLogin" classname="TestCases.NegativeLogin" time="0">
+    <skipped/>
+    <system-out>2020-08-25 18:09:37 INFO  BasePage:134 - Closing brower...
+2020-08-25 18:09:37 INFO  BasePage:77 - Into before Test Hook 
+2020-08-25 18:09:43 INFO  BasePage:89 - Chrome Browser launched successfully..
+2020-08-25 18:09:43 INFO  TestDataProviders:17 - Into Dataprovider - Negative Login Data
+2020-08-25 18:09:43 INFO  TestDataProviders:21 - Reading JSON from a file
+[[Ljava.lang.Object;@6b04acb2
+2020-08-25 18:09:43 INFO  BasePage:102 - Starting the testcase testCase_NegativeLogin
+Retrying testCase_NegativeLogin again and the count is 1
+</system-out>
+    <system-err>Starting ChromeDriver 84.0.4147.30 (48b3e868b4cc0aa7e8149519690b6f6949e110a8-refs/branch-heads/4147@{#310}) on port 3206
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Aug 25, 2020 6:09:41 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+</system-err>
+  </testcase>
+  <testcase name="testCase_NegativeLogin" classname="TestCases.NegativeLogin" time="10.939"/>
+  <testcase name="testCase_NegativeLogin" classname="TestCases.NegativeLogin" time="0">
+    <skipped/>
+    <system-out>2020-08-25 18:10:08 INFO  BasePage:123 - testCase_NegativeLogin PASSED 
+2020-08-25 18:10:08 INFO  BasePage:102 - Starting the testcase testCase_NegativeLogin
+Retrying testCase_NegativeLogin again and the count is 1
+</system-out>
+  </testcase>
+  <testcase name="testCase_NegativeLogin" classname="TestCases.NegativeLogin" time="0">
+    <skipped/>
+    <system-out>2020-08-25 18:10:19 INFO  BasePage:30 - New testcase :testCase_NegativeLogin
+2020-08-25 18:10:19 INFO  BasePage:32 - Testcase Description : 
+2020-08-25 18:10:19 INFO  BasePage:33 - Testcase get skipped
+2020-08-25 18:10:19 ERROR BasePage:36 - testCase_NegativeLogin SKIPPED 
+2020-08-25 18:10:19 ERROR BasePage:127 - testCase_NegativeLogin SKIPPED 
+2020-08-25 18:10:19 INFO  TestDataProviders:17 - Into Dataprovider - Negative Login Data
+2020-08-25 18:10:19 INFO  TestDataProviders:21 - Reading JSON from a file
+[[Ljava.lang.Object;@189b5fb1
+2020-08-25 18:10:19 INFO  BasePage:102 - Starting the testcase testCase_NegativeLogin
+Retrying testCase_NegativeLogin again and the count is 2
+</system-out>
+  </testcase>
+  <testcase name="testCase_NegativeLogin" classname="TestCases.NegativeLogin" time="10.748">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[@id=&apos;nav-signin-tooltip&apos;]//span[@class=&apos;nav-action-inner&apos;][contains(text(),&apos;Sign in&apos;)]&quot;}&#10;  (Session info: chrome=84.0.4147.135)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;ANAMIKASALUJA&apos;, ip: &apos;192.168.1.203&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.5&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.135, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\ANAMIK~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:50900}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: ab4e7788143e9582158b1bc03283fb81&#10;*** Element info: {Using=xpath, value=//div[@id=&apos;nav-signin-tooltip&apos;]//span[@class=&apos;nav-action-inner&apos;][contains(text(),&apos;Sign in&apos;)]}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@id='nav-signin-tooltip']//span[@class='nav-action-inner'][contains(text(),'Sign in')]"}
+  (Session info: chrome=84.0.4147.135)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ANAMIKASALUJA', ip: '192.168.1.203', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.135, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\ANAMIK~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:50900}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: ab4e7788143e9582158b1bc03283fb81
+*** Element info: {Using=xpath, value=//div[@id='nav-signin-tooltip']//span[@class='nav-action-inner'][contains(text(),'Sign in')]}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy16.click(Unknown Source)
+	at Pages.Login.clickSignInButton(Login.java:40)
+	at TestCases.NegativeLogin.testCase_NegativeLogin(NegativeLogin.java:26)
+</failure>
+    <system-out>2020-08-25 18:10:29 INFO  BasePage:30 - New testcase :testCase_NegativeLogin
+2020-08-25 18:10:29 INFO  BasePage:32 - Testcase Description : 
+2020-08-25 18:10:29 INFO  BasePage:33 - Testcase get skipped
+2020-08-25 18:10:29 ERROR BasePage:36 - testCase_NegativeLogin SKIPPED 
+2020-08-25 18:10:29 ERROR BasePage:127 - testCase_NegativeLogin SKIPPED 
+2020-08-25 18:10:29 INFO  TestDataProviders:17 - Into Dataprovider - Negative Login Data
+2020-08-25 18:10:29 INFO  TestDataProviders:21 - Reading JSON from a file
+[[Ljava.lang.Object;@62ddd21b
+2020-08-25 18:10:29 INFO  BasePage:102 - Starting the testcase testCase_NegativeLogin
+</system-out>
+  </testcase>
+  <testcase name="testCase_NegativeLogin" classname="TestCases.NegativeLogin" time="6.985"/>
+</testsuite>

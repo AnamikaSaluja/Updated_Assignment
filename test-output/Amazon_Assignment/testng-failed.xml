@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [Amazon_Assignment]" guice-stage="DEVELOPMENT">
+  <parameter name="browserName" value="Chrome"/>
+  <listeners>
+    <listener class-name="base.TestListener"/>
+    <listener class-name="reRunFailedTest.RetryListenerClass"/>
+  </listeners>
+  <test thread-count="5" parallel="tests" name="Home(failed)">
+    <classes>
+      <class name="testCases.Searches">
+        <methods>
+          <include name="openBrowser"/>
+          <include name="afterMethod"/>
+          <include name="tearDown"/>
+          <include name="beforeSuite"/>
+          <include name="init"/>
+          <include name="initialize"/>
+          <include name="testCase_Search"/>
+          <include name="quitDriver"/>
+        </methods>
+      </class> <!-- testCases.Searches -->
+    </classes>
+  </test> <!-- Home(failed) -->
+</suite> <!-- Failed suite [Amazon_Assignment] -->

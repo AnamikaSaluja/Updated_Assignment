@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="4" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-09-04T09:31:40 IST" name="Amazon_Assignment" finished-at="2020-09-04T09:32:24 IST" duration-ms="44583">
+    <groups>
+    </groups>
+    <test started-at="2020-09-04T09:31:40 IST" name="CategorySelection" finished-at="2020-09-04T09:31:58 IST" duration-ms="18408">
+      <class name="testCases.LogoCheck">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:testCases.LogoCheck@7161d8d1]" started-at="2020-09-04T09:31:39 IST" name="beforeSuite" finished-at="2020-09-04T09:31:40 IST" duration-ms="142" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method is-config="true" signature="openBrowser(java.lang.String)[pri:0, instance:testCases.LogoCheck@7161d8d1]" started-at="2020-09-04T09:31:40 IST" name="openBrowser" finished-at="2020-09-04T09:31:46 IST" duration-ms="6689" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method is-config="true" signature="initialize()[pri:0, instance:testCases.LogoCheck@7161d8d1]" started-at="2020-09-04T09:31:46 IST" name="initialize" finished-at="2020-09-04T09:31:46 IST" duration-ms="42" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method is-config="true" signature="init(java.lang.reflect.Method)[pri:0, instance:testCases.LogoCheck@7161d8d1]" started-at="2020-09-04T09:31:46 IST" name="init" finished-at="2020-09-04T09:31:46 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testCases.LogoCheck.testCase_CategorySelection()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="testCase_CategorySelection()[pri:0, instance:testCases.LogoCheck@7161d8d1]" started-at="2020-09-04T09:31:46 IST" name="testCase_CategorySelection" finished-at="2020-09-04T09:31:57 IST" duration-ms="10839" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase_CategorySelection -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:testCases.LogoCheck@7161d8d1]" started-at="2020-09-04T09:31:57 IST" name="afterMethod" finished-at="2020-09-04T09:31:57 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testCase_CategorySelection status=SUCCESS method=LogoCheck.testCase_CategorySelection()[pri:0, instance:testCases.LogoCheck@7161d8d1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="quitDriver()[pri:0, instance:testCases.LogoCheck@7161d8d1]" started-at="2020-09-04T09:31:57 IST" name="quitDriver" finished-at="2020-09-04T09:31:58 IST" duration-ms="775" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.LogoCheck@7161d8d1]" started-at="2020-09-04T09:32:24 IST" name="tearDown" finished-at="2020-09-04T09:32:24 IST" duration-ms="320" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.LogoCheck -->
+    </test> <!-- CategorySelection -->
+    <test started-at="2020-09-04T09:31:40 IST" name="negativeLogin" finished-at="2020-09-04T09:32:08 IST" duration-ms="28886">
+      <class name="testCases.NegativeLogin">
+        <test-method is-config="true" signature="openBrowser(java.lang.String)[pri:0, instance:testCases.NegativeLogin@7ef82753]" started-at="2020-09-04T09:31:40 IST" name="openBrowser" finished-at="2020-09-04T09:31:46 IST" duration-ms="6792" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:testCases.NegativeLogin@7ef82753]" started-at="2020-09-04T09:31:46 IST" name="beforeClass" finished-at="2020-09-04T09:31:46 IST" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="init(java.lang.reflect.Method)[pri:0, instance:testCases.NegativeLogin@7ef82753]" started-at="2020-09-04T09:31:47 IST" name="init" finished-at="2020-09-04T09:31:47 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testCases.NegativeLogin.testCase_NegativeLogin(java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="testCase_NegativeLogin(java.lang.String, java.lang.String)[pri:0, instance:testCases.NegativeLogin@7ef82753]" started-at="2020-09-04T09:31:47 IST" name="testCase_NegativeLogin" data-provider="Negative Login Data" finished-at="2020-09-04T09:31:59 IST" duration-ms="12787" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[go4rb1@yahoo.co.in]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[xyz]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase_NegativeLogin -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:testCases.NegativeLogin@7ef82753]" started-at="2020-09-04T09:31:59 IST" name="afterMethod" finished-at="2020-09-04T09:31:59 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testCase_NegativeLogin status=SUCCESS method=NegativeLogin.testCase_NegativeLogin(java.lang.String, java.lang.String)[pri:0, instance:testCases.NegativeLogin@7ef82753] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="init(java.lang.reflect.Method)[pri:0, instance:testCases.NegativeLogin@7ef82753]" started-at="2020-09-04T09:31:59 IST" name="init" finished-at="2020-09-04T09:31:59 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testCases.NegativeLogin.testCase_NegativeLogin(java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="testCase_NegativeLogin(java.lang.String, java.lang.String)[pri:0, instance:testCases.NegativeLogin@7ef82753]" started-at="2020-09-04T09:31:59 IST" name="testCase_NegativeLogin" data-provider="Negative Login Data" finished-at="2020-09-04T09:32:04 IST" duration-ms="4553" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[anamika.424@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[xyz]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase_NegativeLogin -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:testCases.NegativeLogin@7ef82753]" started-at="2020-09-04T09:32:04 IST" name="afterMethod" finished-at="2020-09-04T09:32:04 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testCase_NegativeLogin status=SUCCESS method=NegativeLogin.testCase_NegativeLogin(java.lang.String, java.lang.String)[pri:0, instance:testCases.NegativeLogin@7ef82753] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="init(java.lang.reflect.Method)[pri:0, instance:testCases.NegativeLogin@7ef82753]" started-at="2020-09-04T09:32:04 IST" name="init" finished-at="2020-09-04T09:32:04 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testCases.NegativeLogin.testCase_NegativeLogin(java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="testCase_NegativeLogin(java.lang.String, java.lang.String)[pri:0, instance:testCases.NegativeLogin@7ef82753]" started-at="2020-09-04T09:32:04 IST" name="testCase_NegativeLogin" data-provider="Negative Login Data" finished-at="2020-09-04T09:32:08 IST" duration-ms="3884" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[anamikasaluja1991@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[xyz]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase_NegativeLogin -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:testCases.NegativeLogin@7ef82753]" started-at="2020-09-04T09:32:08 IST" name="afterMethod" finished-at="2020-09-04T09:32:08 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testCase_NegativeLogin status=SUCCESS method=NegativeLogin.testCase_NegativeLogin(java.lang.String, java.lang.String)[pri:0, instance:testCases.NegativeLogin@7ef82753] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="quitDriver()[pri:0, instance:testCases.NegativeLogin@7ef82753]" started-at="2020-09-04T09:32:08 IST" name="quitDriver" finished-at="2020-09-04T09:32:08 IST" duration-ms="678" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+      </class> <!-- testCases.NegativeLogin -->
+    </test> <!-- negativeLogin -->
+    <test started-at="2020-09-04T09:31:40 IST" name="Home" finished-at="2020-09-04T09:32:24 IST" duration-ms="44583">
+      <class name="testCases.Searches">
+        <test-method is-config="true" signature="openBrowser(java.lang.String)[pri:0, instance:testCases.Searches@5ab956d7]" started-at="2020-09-04T09:31:40 IST" name="openBrowser" finished-at="2020-09-04T09:31:46 IST" duration-ms="6947" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method is-config="true" signature="initialize()[pri:0, instance:testCases.Searches@5ab956d7]" started-at="2020-09-04T09:31:46 IST" name="initialize" finished-at="2020-09-04T09:31:46 IST" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method is-config="true" signature="init(java.lang.reflect.Method)[pri:0, instance:testCases.Searches@5ab956d7]" started-at="2020-09-04T09:31:46 IST" name="init" finished-at="2020-09-04T09:31:47 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testCases.Searches.testCase_Search()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:testCases.Searches@5ab956d7]" started-at="2020-09-04T09:32:08 IST" name="afterMethod" finished-at="2020-09-04T09:32:08 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testCase_Search status=SKIP method=Searches.testCase_Search()[pri:0, instance:testCases.Searches@5ab956d7] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="testCase_Search()[pri:0, instance:testCases.Searches@5ab956d7]" started-at="2020-09-04T09:32:08 IST" name="testCase_Search" finished-at="2020-09-04T09:32:23 IST" duration-ms="14440" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//span[@id='productTitle']"}
+  (Session info: chrome=84.0.4147.135)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ANAMIKASALUJA', ip: '192.168.1.203', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.135, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\ANAMIK~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:65032}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 495da6e5a9c5f939bf679870dda2f3ad
+*** Element info: {Using=xpath, value=//span[@id='productTitle']}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//span[@id='productTitle']"}
+  (Session info: chrome=84.0.4147.135)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ANAMIKASALUJA', ip: '192.168.1.203', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.135, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\ANAMIK~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:65032}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 495da6e5a9c5f939bf679870dda2f3ad
+*** Element info: {Using=xpath, value=//span[@id='productTitle']}
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at com.sun.proxy.$Proxy19.getText(Unknown Source)
+at pages.BookPage.VerifyTitle(BookPage.java:25)
+at testCases.Searches.testCase_Search(Searches.java:46)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.retryFailed(TestInvoker.java:214)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:58)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:821)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+at org.testng.TestRunner.privateRun(TestRunner.java:767)
+at org.testng.TestRunner.run(TestRunner.java:588)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:425)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:68)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+at java.base/java.lang.Thread.run(Thread.java:834)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase_Search -->
+        <test-method is-config="true" signature="init(java.lang.reflect.Method)[pri:0, instance:testCases.Searches@5ab956d7]" started-at="2020-09-04T09:32:08 IST" name="init" finished-at="2020-09-04T09:32:08 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testCases.Searches.testCase_Search()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:testCases.Searches@5ab956d7]" started-at="2020-09-04T09:32:23 IST" name="afterMethod" finished-at="2020-09-04T09:32:23 IST" duration-ms="562" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testCase_Search status=FAILURE method=Searches.testCase_Search()[pri:0, instance:testCases.Searches@5ab956d7] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="quitDriver()[pri:0, instance:testCases.Searches@5ab956d7]" started-at="2020-09-04T09:32:23 IST" name="quitDriver" finished-at="2020-09-04T09:32:24 IST" duration-ms="699" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+      </class> <!-- testCases.Searches -->
+    </test> <!-- Home -->
+  </suite> <!-- Amazon_Assignment -->
+</testng-results>
